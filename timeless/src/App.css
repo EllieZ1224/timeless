@@ -1,0 +1,94 @@
+.App-header {
+  text-align: center;
+}
+
+.App-header h2 {
+  text-align: center;
+  font-family: 'Snell Roundhand', 'cursive';
+  font-size: 7vw;
+  margin: 0;
+}
+
+
+.header-text {
+  text-align: center;
+  font-family: 'Impact', 'fantasy';
+}
+
+
+.header-text h1 {
+  font-size: 11vw;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.image-section {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  opacity: 0.9;
+
+}
+
+.text-overlay {
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8vw;
+  color: transparent; /* 将文本颜色设置为透明 */
+  -webkit-text-stroke: 2px rgb(195, 195, 195); /* 设置描边颜色和宽度 */
+  font-family: 'Times New Roman', serif;
+  text-align: center;
+  line-height: 0.1;
+  pointer-events: none;
+  z-index: 2;
+  transition: color 0.5s ease, -webkit-text-stroke 0.5s ease;
+  text-wrap: nowrap;
+  text-align: center;
+}
+
+.icon-section {
+  position: revert-layer;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.icon-section img {
+  width: 50px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.icon-text {
+  text-align: center;
+}
+
+.icon-text p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.footer{
+  text-align: right;
+  font-size: 12px;
+}
